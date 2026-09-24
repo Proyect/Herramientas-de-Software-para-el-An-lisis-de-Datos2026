@@ -1,5 +1,8 @@
 # CHANGELOG
 
+[Ejercicio 04]
+- Creación de la clase PortAnalyzer con sus 6 métodos de análisis.
+
 [Ejercicio 03]
 - Normalización de fechas, horas, matrículas y muelles.
 - Cálculo de duracion_horas, exceso_velocidad_real y exceso_velocidad.
