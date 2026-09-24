@@ -1,5 +1,8 @@
 # CHANGELOG
 
+[Ejercicio 06]
+- Respuestas a las preguntas de análisis sobre el dataset limpio.
+
 [Ejercicio 05]
 - Generación y exportación de 6 gráficos en port_log/data/interim/plots.
 
