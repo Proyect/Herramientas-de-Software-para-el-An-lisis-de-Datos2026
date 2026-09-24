@@ -1,5 +1,8 @@
 # CHANGELOG
 
+[Ejercicio 05]
+- Generación y exportación de 6 gráficos en port_log/data/interim/plots.
+
 [Ejercicio 04]
 - Creación de la clase PortAnalyzer con sus 6 métodos de análisis.
 
