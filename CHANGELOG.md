@@ -1,5 +1,11 @@
 # CHANGELOG
 
+[Ejercicio 03]
+- Normalización de fechas, horas, matrículas y muelles.
+- Cálculo de duracion_horas, exceso_velocidad_real y exceso_velocidad.
+- Eliminación de nulos críticos, outliers (IQR) y filas sin infracción.
+- Exportación del dataset limpio y del resumen estadístico.
+
 [Ejercicio 02]
 - Descarga del dataset raw en port_log/data/raw/port_movements.csv.
 - Exploración inicial: primeras/últimas filas, tipos de datos y nulos.
