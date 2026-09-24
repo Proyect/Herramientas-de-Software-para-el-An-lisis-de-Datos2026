@@ -1,5 +1,8 @@
 # CHANGELOG
 
+[Ejercicio 07]
+- Redacción de la conclusión en port_log/reports/conclusion.md.
+
 [Ejercicio 06]
 - Respuestas a las preguntas de análisis sobre el dataset limpio.
 
