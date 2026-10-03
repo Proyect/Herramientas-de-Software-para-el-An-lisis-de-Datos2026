@@ -2,6 +2,13 @@
 
 ## Sprint 2
 
+[Ejercicio 02]
+- Listado de imágenes con su tamaño en KB.
+- Separación en plates y completes por relación de aspecto.
+- Generación de port_log/data/interim/group_images.json.
+- Cálculo de resolución, área y tamaño promedio por grupo.
+- Función mostrar_muestra para visualizar imágenes en grilla de 2 columnas.
+
 [Ejercicio 01]
 - Creación de la rama Sprint_2 a partir de Sprint_1.
 - Descarga y descompresión del dataset de imágenes en port_log/data/raw/imgs.
