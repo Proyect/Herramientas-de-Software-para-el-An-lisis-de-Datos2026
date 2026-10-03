@@ -2,6 +2,10 @@
 
 ## Sprint 2
 
+[Ejercicio 06]
+- Análisis de condiciones de captura (brillo, nitidez y distancia).
+- Redacción de la conclusión en port_log/reports/conclusion_sprint2.md.
+
 [Ejercicio 05]
 - Cálculo de infracciones con y sin imagen e imágenes sin match.
 - Ratio promedio de coincidencia y tasa de match por grupo.
