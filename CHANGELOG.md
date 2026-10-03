@@ -2,6 +2,12 @@
 
 ## Sprint 2
 
+[Ejercicio 04]
+- Extracción de matrículas con easyocr y carga en group_images.json.
+- Reintento del OCR sobre la imagen ecualizada cuando no hay match.
+- Matching posicional de caracteres alfanuméricos con umbral del 75%.
+- Generación de port_log/data/processed/port_movements_image.csv.
+
 [Ejercicio 03]
 - Conversión a escala de grises (03_01_gray).
 - Ecualización de histograma (03_02_equalized).
