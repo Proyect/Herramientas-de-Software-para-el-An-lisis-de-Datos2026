@@ -2,6 +2,12 @@
 
 ## Sprint 2
 
+[Ejercicio 03]
+- Conversión a escala de grises (03_01_gray).
+- Ecualización de histograma (03_02_equalized).
+- Suavizado con blur gaussiano 5x5 (03_03_blur).
+- Detección de bordes con Canny (03_04_canny).
+
 [Ejercicio 02]
 - Listado de imágenes con su tamaño en KB.
 - Separación en plates y completes por relación de aspecto.
