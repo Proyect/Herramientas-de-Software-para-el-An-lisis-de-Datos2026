@@ -2,6 +2,12 @@
 
 ## Sprint 2
 
+[Ejercicio 05]
+- Cálculo de infracciones con y sin imagen e imágenes sin match.
+- Ratio promedio de coincidencia y tasa de match por grupo.
+- Infracciones PENDIENTES sin evidencia visual.
+- Exportación de port_log/reports/metricas_sprint2.csv.
+
 [Ejercicio 04]
 - Extracción de matrículas con easyocr y carga en group_images.json.
 - Reintento del OCR sobre la imagen ecualizada cuando no hay match.
