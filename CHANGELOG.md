@@ -2,6 +2,10 @@
 
 ## Sprint 3
 
+[Ejercicio 03]
+- Diseño del modelo lógico Buque, Movimiento, Radar y Evidencia con atributos y cardinalidades.
+- Documentación en port_log/reports/modelo_logico_sprint3.md.
+
 [Ejercicio 02]
 - Inicialización de DVC con Supabase Storage como remoto S3.
 - Organización de las imágenes en subcarpetas plates/ y completes/ (actualizando group_images.json y port_movements_image.csv).
