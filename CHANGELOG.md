@@ -2,6 +2,11 @@
 
 ## Sprint 3
 
+[Ejercicio 07]
+- Creación de la base vectorial buque_vectorial con ChromaDB y OpenCLIP (ViT-B-32, distancia coseno).
+- Embedding de la imagen complete de mayor ratio de cada buque, con el id del buque como identificador.
+- Versionado de la base vectorial con DVC.
+
 [Ejercicio 06]
 - Consultas SQLAlchemy: top 10 buques con más infracciones, movimientos recientes sin evidencia, radares más activos y muelles distintos.
 - Consultas SQLAlchemy: reincidentes en 2024, exceso promedio por muelle y cobertura de evidencia visual.
