@@ -1,24 +1,24 @@
-# Port Log - Sprint 2
+# Port Log - Sprint 3
 
 ## Objetivo
-Aplicar conocimientos de tratamiento de imágenes y programación limpia sobre el
-contexto del sistema portuario.
+Aplicar conocimientos de bases de datos relacionales (SQLAlchemy), versionado de
+datos (DVC) y búsqueda por similitud visual (ChromaDB) para profesionalizar el
+sistema portuario.
 
 ## Introducción y contexto
-Los radares ubicados en los accesos a los muelles capturan evidencia fotográfica de
-las infracciones de velocidad. Las cámaras asociadas fotografían la zona de proa donde
-está pintada la matrícula del buque. En algunos casos el sistema recorta
-automáticamente la zona de matrícula (`plates`); en otros, entrega la imagen completa
-(`completes`).
+El sistema creció en volumen y complejidad. En este sprint se busca:
 
-El sistema presenta limitaciones: no todas las infracciones tienen imagen asociada, no
-todas las imágenes corresponden a una infracción real (falsos positivos del radar) y
-puede haber errores de detección óptica (imágenes borrosas, nocturnas o lejanas).
+1. **Persistencia estructurada**: pasar de CSVs a una base de datos relacional
+   (`transito_portuario`) administrada con el ORM SQLAlchemy.
+2. **Auditoría de cambios**: versionar con DVC (remoto S3 en Supabase) las
+   imágenes, los gráficos y el dataset procesado, para saber qué versión de los
+   datos se usó en cada análisis.
+3. **Identificación visual de buques**: identificar un buque por similitud
+   visual de su imagen con embeddings OpenCLIP almacenados en ChromaDB
+   (`buque_vectorial`), sin depender de la OCR.
 
-En este sprint se preprocesan las imágenes (escala de grises, ecualización, suavizado y
-bordes), se extrae la matrícula con OCR y se cruza con las infracciones depuradas en el
-Sprint 1 para responder: **¿qué infracciones tienen evidencia visual válida?**
-
-## Sprint anterior
-- Sprint 1: limpieza y análisis exploratorio del registro de movimientos portuarios
+## Sprints anteriores
+- Sprint 1: limpieza y análisis exploratorio del registro de movimientos
   (`port_log/data/interim/port_movements.csv`).
+- Sprint 2: preprocesamiento de imágenes, OCR de matrículas y cruce con las
+  infracciones (`port_log/data/processed/port_movements_image.csv`).
