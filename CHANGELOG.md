@@ -2,6 +2,9 @@
 
 ## Sprint 3
 
+[Ejercicio 09]
+- Conclusión integradora de los 3 sprints en port_log/reports/conclusion_sprint3.md.
+
 [Ejercicio 08]
 - Implementación de buscar_buque_por_imagen: embedding OpenCLIP, consulta a buque_vectorial y recuperación del buque con movimientos y evidencias.
 - Umbral de distancia coseno y advertencia para imágenes plate.
