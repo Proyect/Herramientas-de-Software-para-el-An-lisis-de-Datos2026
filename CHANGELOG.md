@@ -2,6 +2,10 @@
 
 ## Sprint 3
 
+[Ejercicio 04]
+- Implementación de los modelos SQLAlchemy Buque, Radar, Movimiento y Evidencia con PK, FK, relationship y __repr__.
+- Implementación de procesar_fila_csv (fila del CSV a Movimiento con sus relaciones).
+
 [Ejercicio 03]
 - Diseño del modelo lógico Buque, Movimiento, Radar y Evidencia con atributos y cardinalidades.
 - Documentación en port_log/reports/modelo_logico_sprint3.md.
