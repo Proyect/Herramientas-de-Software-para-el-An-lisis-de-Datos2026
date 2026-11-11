@@ -7,6 +7,7 @@
 - Organización de las imágenes en subcarpetas plates/ y completes/ (actualizando group_images.json y port_movements_image.csv).
 - Migración de las imágenes de port_log/data/raw/imgs a DVC.
 - Migración de los gráficos de port_log/data/interim/plots a DVC.
+- Versionado con DVC de port_log/data/processed/port_movements_image.csv como dato procesado final del pipeline.
 
 [Ejercicio 01]
 - Creación de la rama Sprint_3 a partir de Sprint_2.
