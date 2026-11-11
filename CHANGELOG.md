@@ -2,6 +2,10 @@
 
 ## Sprint 3
 
+[Ejercicio 06]
+- Consultas SQLAlchemy: top 10 buques con más infracciones, movimientos recientes sin evidencia, radares más activos y muelles distintos.
+- Consultas SQLAlchemy: reincidentes en 2024, exceso promedio por muelle y cobertura de evidencia visual.
+
 [Ejercicio 05]
 - Creación de la base SQLite transito_portuario con SQLAlchemy.
 - Migración de port_movements_image.csv con procesar_fila_csv.
