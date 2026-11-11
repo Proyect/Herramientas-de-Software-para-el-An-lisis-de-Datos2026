@@ -2,6 +2,12 @@
 
 ## Sprint 3
 
+[Ejercicio 05]
+- Creación de la base SQLite transito_portuario con SQLAlchemy.
+- Migración de port_movements_image.csv con procesar_fila_csv.
+- Validación de registros insertados por tabla.
+- Versionado de la base con DVC.
+
 [Ejercicio 04]
 - Implementación de los modelos SQLAlchemy Buque, Radar, Movimiento y Evidencia con PK, FK, relationship y __repr__.
 - Implementación de procesar_fila_csv (fila del CSV a Movimiento con sus relaciones).
