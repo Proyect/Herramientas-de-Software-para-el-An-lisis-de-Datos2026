@@ -2,6 +2,11 @@
 
 ## Sprint 3
 
+[Ejercicio 02]
+- Inicialización de DVC con Supabase Storage como remoto S3.
+- Organización de las imágenes en subcarpetas plates/ y completes/ (actualizando group_images.json y port_movements_image.csv).
+- Migración de las imágenes de port_log/data/raw/imgs a DVC.
+
 [Ejercicio 01]
 - Creación de la rama Sprint_3 a partir de Sprint_2.
 - Verificación de los datasets de sprints anteriores (registros y fecha de última modificación).
