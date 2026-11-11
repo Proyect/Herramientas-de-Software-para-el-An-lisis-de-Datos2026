@@ -2,6 +2,10 @@
 
 ## Sprint 3
 
+[Ejercicio 08]
+- Implementación de buscar_buque_por_imagen: embedding OpenCLIP, consulta a buque_vectorial y recuperación del buque con movimientos y evidencias.
+- Umbral de distancia coseno y advertencia para imágenes plate.
+
 [Ejercicio 07]
 - Creación de la base vectorial buque_vectorial con ChromaDB y OpenCLIP (ViT-B-32, distancia coseno).
 - Embedding de la imagen complete de mayor ratio de cada buque, con el id del buque como identificador.
